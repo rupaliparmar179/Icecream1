@@ -1,0 +1,607 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+
+  position: sticky;
+            top: 0;
+            background: rgba(0, 0,0,0.8 ) ;
+            display: flex;
+          z-index:333;
+          height: 50px ;
+          
+  
+}
+.icon{
+  text-align: center;
+  color: orangered;
+  font-family:cursive;
+  font-size: 30px;
+  height: 10px;
+}
+i img{
+  height:50px;
+}
+nav {
+  margin-left: 30%;
+  justify-content: flex-end;
+  padding-top: 0px;
+
+}
+.red{
+  color:rgba(255, 0, 0, 500);
+}
+.black{
+  color: white;
+}
+.menu-icon {
+  font-size: 50px ;
+  display: none;
+  cursor: pointer;
+}
+
+
+
+ul {
+  list-style-type: none;
+display: flex;
+}
+
+li {
+  padding:10px;
+
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  font-size: 20px ;
+  font-style: bold;
+}
+a:hover{
+  border:2px solid white;
+  border-radius:5px ;
+}
+#nav-items {
+  display:flex;
+  flex-direction:row;
+
+}
+#nav-items.active {
+  display: flex;
+  height:auto
+}
+
+.home{
+  height:800px;
+  width: 100%;
+  color: gray
+  background-size :cover ;
+  ;
+}
+swiper-wrapper{
+  
+}
+ .swiper {
+      width: 100%;
+      height: 100%;
+     
+}
+.home .swiper-slide{
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 200px ;
+  font-size: 30px;
+}
+
+.home .swiper-slide h4{
+  font-size: px ;
+  filter: brightness(200%);
+  slideLeftRight 4s  cubic-bezier(0.19, 1, 0.22, 1) .4s backwards ;
+  
+}
+.home .swiper-slide h1.active{
+  font-size: 50px;
+
+}
+    .swiper-slide {
+      text-align: center;
+      color: white;
+    
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .home .swiper-slide::before{
+      contain: '';
+      background:white;
+      z-index: -1;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+swiper-button-next,
+swiper-button-prev{
+  background: white;
+  color: black;
+}
+.object-cover object-center rounded{
+  height:720;
+  width:600;
+}
+
+  .about .descriptions{
+    display: flex;
+    padding-top: 3px;
+    height: 400px ;
+  }
+  .about .heading{
+  text-align: center;
+  font-size: 50px ;
+  color: red;
+  font-style:italic;
+   padding-top: 3rem;
+}
+.about .heading span{
+  color: black;
+}
+  .about .image img{
+  
+    width: 400px ;
+    height: 400px;
+    box-shadow: 2px 2px 4px rgba(1, 0, 1, 1);
+    margin:0 2rem  3rem 2rem;
+  }
+  .about .title{
+    
+  }
+  .about .title h1{
+    font-size: 40px ;
+    animation: textAnimation 2s ease-in;
+  }
+  .about .title p{
+animation: textAnimation 4s ease-in;
+  }
+  .about .icon{
+    display: flex;
+    padding: 5px;
+    
+  }
+  .about .icon img{
+    padding: 20px;
+  }
+  .abc{
+    font-size:100px ;
+  }
+.about .title i{
+  font-size: 70px ;
+color:black;
+background:grey;
+border-radius :10%;
+margin-left:30px;
+}
+.menu .heading{
+  text-align: center;
+  font-size: 50px ;
+  color: red;
+  font-style:italic;
+   padding-top: 3rem;
+   font-family: cursive;
+}
+.menu .heading span{
+  color: black;
+}
+.menu .box-container{
+  padding: 1px;
+  display: flex;
+  gap:10px ;
+}
+.menu .box-container .box{
+  padding: 2.3rem;
+  text-align:0.5rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(1, 0, 1, 1);
+  height: 350px ;
+}
+.menu .box-container .box img{
+  height: 10rem;
+  width: 15rem;
+  border-radius: 10px ;
+}
+.menu .box-container .box img:hover{
+  
+}
+.menu .box-container .box h3{
+
+  font-size: 2rem;
+  
+}
+.menu .box-container .box .price span{
+  font-size: 1.5rem;
+  text-decoration:line-through;
+}
+.menu .box-container .box:hover{
+  background: black;
+}
+.menu .box-container .box:hover image{
+transform: scale(10px);
+}
+.menu .box-container .box:hover > *{
+  transform: scale(50rem);
+  color: white;
+  
+  padding: 0px ;
+}
+.menu .box-container .box .btn:hover{
+   border:2px solid white;
+   width: 200px ;
+}
+.btn{
+  border:2px solid black;
+background:orange;
+border-radius:5px;
+height: 50px;
+width: 100px;
+}
+.btn:hover{
+  width:150px;
+}
+.review .heading{
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  font-style: italic;
+  padding-top: 3rem;
+  font-family :cursive;
+}
+.review .heading span{
+  color: black
+  
+  ;
+}
+.review .box-container{
+  display: flex;
+}
+.review .box-container .box{
+  padding: 2.3rem;
+  margin: 1.3rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(1, 1, 1, 3);
+  height: 450px ;
+}
+.review .box-container .box h3 {
+  text-transform: uppercase;
+}
+.review .box-container .box img{
+  height: 13rem ;
+  
+}
+.review box-container .box .icons i{
+  background: red;
+}
+.services{
+background:none;
+  height: 700px ;
+}
+.services .text{
+  text-align: center;
+}
+.services .text h3{
+  color:black ;
+  font-family: cursive;  font-size:60px ;
+}
+.services .text h1{
+margin-top: 0px ;
+  color:red;
+  font-family:cursive;
+  font-size:80px ;
+}
+.services .swiper{
+
+  width: 100%;
+}
+.serviceSwiper{
+  height: 400px ;
+  width: 15%;
+  background: none ;
+}
+.serviceSwiper .swiper-slide{
+  height: 250px ;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.serviceSwiper .swiper-slide{
+  text-align: center;
+  display: inline-block;
+  padding-top:0px;
+   border:1px solid black;
+   box-shadow: 4px 4px 4px rgba(1, 0, 1, 1);
+}
+
+.serviceSwiper .swiper-slide img{
+  padding-top: 0px ;
+  border-radius: 50%;
+  height: 150px ;
+  width:150px ;
+  text-align: center;
+  margin-left: 80px;
+}
+.serviceSwiper .swiper-slide h2{
+  color: black;
+  font-size: 15px ;
+}
+.serviceSwiper .swiper-slide h1{
+  color: orangered;
+  font-size: 10px ;
+}
+.services .icon img{
+color: red;
+  height: 100px ;
+}
+.contact .heading{
+  color: red;
+  font-size: 50px ;
+  font-family: cursive;
+}
+.contact .heading span{
+  color: black;
+  font-size: 50px ;
+  font-family: cursive;
+}
+.contact{
+  text-align: center;
+}
+.contact .row form{
+  flex:1 1 45rem;
+  padding: 2rem 1rem;
+  align-items:center;
+  
+}
+
+.contact .row form .inputbox{
+display: flex;
+margin-top: 1rem;
+  align-items: center;
+  
+  
+}
+.contact .row form .inputbox span{
+  
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+.contact .row form .inputbox input{
+  width: 80%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  color: black;
+  text-transform: none;
+}
+.contact .row form .submit {
+  
+}
+.contact .row form .submit input{
+  border: 2px solid red;
+  
+  border-radius :100px ;
+width:200px ;
+margin-top: 2rem;
+  font-size: 1.7rem;
+  color:  orange;
+  background: black;
+border: 2px solid red ;
+
+}
+
+.socialmedia{
+  display: flex;
+  justify-content: center;
+}
+.socialmedia .socialicons{
+  text-align: center;
+  margin: 2rem;
+  height: 2rem;
+  width: 2rem;
+  background-color :black ;
+  color: white;
+  border-radius:50%;
+}
+.socialmedia .socialicons a i{
+  color: white;
+  margin-top: 0.3rem;
+}
+.fa-brands fa-facebook{
+  color: white;
+}
+footer{
+  background: rgba(0, 0,0,0.8 ) ;
+}
+.footernav{
+  justify-content: center;
+  margin-left: 0%;
+}
+.footernav .nav{
+  justify-content: center;
+  margin-left: 0px;
+}
+.footernav .nav li {
+  justify-content: center;
+  background: black;
+  border: 3px solid white;
+  margin: 0.4rem;
+  border-radius:5px;
+  margin-bottom :2rem;
+}
+
+.footernav .nav li:hover a{
+  color: goldenrod;
+  letter-spacing:3px;
+}
+.footernav .nav li a{
+  color: white
+}
+@keyframes slideLeftRight {
+      50% {
+        transform: translateX(-15%);
+      }
+      
+      
+    }
+@keyframes textAnimation {
+      0% { opacity: 0; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+@media(max-width:900px){
+  
+}
+@media(max-width:700px){
+
+     header {
+
+  position: sticky;
+            top: 0;
+            background: rgba(0, 0,0,0.8 ) ;
+            height: auto ;
+          z-index: 999;
+     }
+     section{
+       
+     }
+      .menu-icon{
+        display:inline-block ;
+        position: fixed;
+        font-size 25px ;
+        height: 50px;
+        top: 3px;
+        right: 0px;
+      }
+      
+      .navbar{
+        font-size: 14px ;
+    position: absolute
+    top: 0px;
+    left: 0px;right:0px;
+display: none;
+height:auto;
+      }
+      .navbar li{
+        display:block;
+        margin: 2rem;
+        text-decoration :none;
+   padding-left: 0px ;
+      }
+      li{
+        text-decoration :none;
+      }
+      #nav-items {
+  display:none;
+  flex-direction:column;
+  height:500px;
+}
+
+#nav-items.active {
+  display: flex;
+  height: auto;
+  padding-left: 0px;
+}
+.home{
+height: 600px; 
+  width: 100%;
+  color: gray
+  ;
+}
+ .about .descriptions{
+   display: inline-block;
+ }
+ .about .descriptions .image{
+   margin-left: 5rem;
+   margin-bottom :4rem;
+   }
+ .about .image img{
+  height: 80%;
+    width: 80%;
+    box-shadow: 2px 2px 4px rgba(1, 0, 1, 6);
+    
+  }
+    .about .title h1{
+    font-size: 30px ;
+    color: black;
+  }
+    .about .title p{
+      font-size: 15px;
+      color:black;
+    }
+    .services{
+background-color:none;
+  height: 500px ;
+  
+}
+    .services .text h3{
+  color:black ;
+  font-family: cursive;  font-size:40px ;
+}
+    .services .text h1{
+margin-top: 0px ;
+  color:red;
+  font-family:cursive;
+  font-size:50px ;
+}
+.serviceSwiper{
+  height: 300px ;
+}
+.serviceSwiper .swiper-slide{
+    height: 200px ;
+    width: 100px;
+    text-align: center;
+    
+  }
+.serviceSwiper .swiper-slide img{
+  padding-top: 0px ;
+  border-radius: 50%;
+  height: 80px ;
+  width:80px ;
+text-align: center;
+margin-left: 7px;
+}
+.review .box-container{
+  display: block ;
+}
+.lable{
+font-size: 20px;
+padding:20px;
+text-align: center;
+}
+.menu .box-container{
+  display: grid;
+  grid-gap: 1.5rem;
+  display: block;
+}
+.menu .box-container .box{
+  padding: 2.3rem;
+  text-align:0.5rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(1, 0, 1, 1);
+  height: 350px ;
+  margin: 1.3rem;
+}
+.footernav .nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
