@@ -206,6 +206,7 @@ margin-left:30px;
 }
 .menu .box-container .box{
   padding: 2.3rem;
+  margin:2px;
   text-align:0.5rem;
   text-align: center;
   border: 1px solid black;
