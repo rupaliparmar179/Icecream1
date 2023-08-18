@@ -202,8 +202,7 @@ margin-left:30px;
 .menu .box-container{
   
   display: flex;
-  gap:10px ;
-  flex-wrap:wrap;
+ 
 }
 .menu .box-container .box{
   padding: 2.3rem;
