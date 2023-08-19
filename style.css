@@ -292,7 +292,7 @@ width: 100px;
 }
 .services{
 background:none;
-  height: 700px ;
+  
 }
 .services .text{
   text-align: center;
@@ -308,18 +308,19 @@ margin-top: 0px ;
   font-size:80px ;
 }
 .services .swiper{
-
+ text-align: center;
   width: 100%;
 }
 .serviceSwiper{
-  height: 400px ;
+  height: 500px ;
   width: 15%;
   background: none ;
+ text-align: center;
 }
 .serviceSwiper .swiper-slide{
-  height: 250px ;
+  height: 350px ;
   width: 150px;
-  margin:5rem;
+margin:5rem;
   text-align: center;
   
 }
@@ -338,15 +339,20 @@ margin-top: 0px ;
   height: 150px ;
   width:150px ;
   text-align: center;
-  margin-left: 80px;
+align-item:center;
+  margin-left:10rem;
 }
 .serviceSwiper .swiper-slide h2{
   color: black;
-  font-size: 15px ;
+  font-size: 30px ;
 }
 .serviceSwiper .swiper-slide h1{
   color: orangered;
-  font-size: 10px ;
+  font-size:20px ;
+}
+.serviceSwiper .swiper-slide p{
+   display: block; /* Ensures the image is a block-level element */
+    margin: 0 auto; 
 }
 .services .icon img{
 color: red;
