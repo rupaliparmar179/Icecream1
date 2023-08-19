@@ -318,7 +318,8 @@ margin-top: 0px ;
 }
 .serviceSwiper .swiper-slide{
   height: 250px ;
-  width: 100%;
+  width: 150px;
+  margin:5rem;
   text-align: center;
   
 }
