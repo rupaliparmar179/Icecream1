@@ -331,6 +331,8 @@ margin:5rem;
   padding-top:0px;
    border:1px solid black;
    box-shadow: 4px 4px 4px rgba(1, 0, 1, 1);
+  display: block; /* Ensures the image is a block-level element */
+    margin: 0 auto; 
 }
 
 .serviceSwiper .swiper-slide img{
