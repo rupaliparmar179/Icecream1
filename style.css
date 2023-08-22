@@ -343,7 +343,7 @@ margin:5rem;
   text-align: center;
  display: block; /* Ensures the image is a block-level element */
     margin: 0 auto; 
-  margin-left:10rem;
+
 }
 .serviceSwiper .swiper-slide h2{
   color: black;
